@@ -1,11 +1,31 @@
 {
   "name": "fullcycle-node-ci",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aplicação simples em Node js para testar integração contínua o Github Actions e SonarCloud",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhbart/Fullcycle-Node-Ci.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "js"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhbart/Fullcycle-Node-Ci/issues"
+  },
+  "homepage": "https://github.com/dhbart/Fullcycle-Node-Ci#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
 }
