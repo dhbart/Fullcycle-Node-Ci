@@ -2,5 +2,5 @@ const { app } = require('./app');
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
-  console.log(`Rodando em http://localhost:${port}`);
+  console.log(`Rodando na http://localhost:${port}`);
 });
